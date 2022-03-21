@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T15:55:56 BDT" name="Default suite" finished-at="2022-03-21T15:56:50 BDT" duration-ms="53317">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T15:55:56 BDT" name="Default test" finished-at="2022-03-21T15:56:50 BDT" duration-ms="53317">
+      <class name="com.demo.testcases.CurrencyConversionCalculatorPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:55:56 BDT" name="setup" finished-at="2022-03-21T15:56:13 BDT" duration-ms="16842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:13 BDT" name="verifyLogo" finished-at="2022-03-21T15:56:17 BDT" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="sellAndBuyFieldVerify()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:17 BDT" name="sellAndBuyFieldVerify" finished-at="2022-03-21T15:56:20 BDT" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellAndBuyFieldVerify -->
+        <test-method signature="currencyVerifyAccordingToCountry()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:20 BDT" name="currencyVerifyAccordingToCountry" finished-at="2022-03-21T15:56:28 BDT" duration-ms="8156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyVerifyAccordingToCountry -->
+        <test-method signature="currencyRateUpdateVerifyAccordingToCountry()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:28 BDT" name="currencyRateUpdateVerifyAccordingToCountry" finished-at="2022-03-21T15:56:42 BDT" duration-ms="14104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyRateUpdateVerifyAccordingToCountry -->
+        <test-method signature="lossAmountVerification()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:42 BDT" name="lossAmountVerification" finished-at="2022-03-21T15:56:49 BDT" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lossAmountVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.testcases.CurrencyConversionCalculatorPageTest@5e2c3d18]" started-at="2022-03-21T15:56:49 BDT" name="tearDown" finished-at="2022-03-21T15:56:50 BDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.testcases.CurrencyConversionCalculatorPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test" verbose="2">
+  
+  
+   <parameter name="browser" value="chrome"/>
+   <parameter name="baseURL" value="https://www.paysera.lt/v2/en-LT/fees/currency-conversion-calculator"/>
+   
+   
+    <classes>
+      <class name="com.demo.testcases.CurrencyConversionCalculatorPageTest">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="sellAndBuyFieldVerify"/>
+          <include name="currencyVerifyAccordingToCountry"/>
+          <include name="currencyRateUpdateVerifyAccordingToCountry"/>
+          <include name="lossAmountVerification"/>
+          
+        </methods>
+      </class> <!-- com.demo.testcases.CurrencyConversionCalculatorPageTest -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
